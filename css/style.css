@@ -1,0 +1,182 @@
+html,
+body {
+  overflow-x: hidden;
+  background-color: #f7f7f7;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #4c75a3;
+}
+header h1 {
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  color: white;
+}
+header .enter {
+  margin-top: 25px;
+}
+header h5 {
+  text-align: right;
+  color: white;
+}
+#home {
+  padding-top: 30px;
+  /*# sourceMappingURL=main.css.map */
+}
+#home a {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  cursor: default;
+  color: #838ea7;
+  text-transform: uppercase;
+}
+#home nav {
+  width: 100%;
+  top: 30%;
+  left: 42%;
+  background-color: #FEFEFE;
+  position: absolute;
+  border-radius: 2px;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  width: 300px;
+  margin-left: -170px;
+  border: solid 1px #8b9dc3;
+}
+#home nav ul li ul {
+  display: none;
+  margin-top: 20px;
+  border: solid 1px #8b9dc3;
+}
+#home nav ul li ul li {
+  display: block;
+}
+#home nav ul li ul li:hover {
+  background-color: #dfe3ee;
+}
+#home nav ul li ul li svg {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#home nav li li {
+  background-color: #FEFEFE;
+}
+#home .menu1 {
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
+  border-bottom: 1px #d7d9dd solid;
+  position: relative;
+}
+#home .menu1 svg {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 4px;
+}
+#home .menu1:hover a {
+  color: #6d6c6c;
+}
+#home .menu1:hover .blue-box {
+  background-color: #4c75a3;
+  position: absolute;
+  margin-left: 0;
+  height: 100%;
+  width: 4px;
+}
+#home .menu1:hover #menu1 {
+  fill: #6d6c6c;
+}
+#home .menu3 {
+  border-bottom-left-radius: 1px;
+  border-bottom-right-radius: 1px;
+  border-top: 1px #d7d9dd solid;
+}
+#home .menu3 svg {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 4px;
+}
+#home .menu3:hover a {
+  color: #6d6c6c;
+}
+#home .menu3:hover .blue-box {
+  background-color: #4c75a3;
+  position: absolute;
+  margin-left: 0;
+  height: 100%;
+  width: 4px;
+}
+#home .menu3:hover #gear {
+  fill: #6d6c6c;
+}
+#home .menu2 svg {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 4px;
+}
+#home .menu2:hover a {
+  color: #6d6c6c;
+}
+#home .menu2:hover .blue-box {
+  background-color: #4c75a3;
+  position: absolute;
+  margin-left: 0;
+  height: 100%;
+  width: 4px;
+}
+#home .menu2:hover #mail {
+  fill: #6d6c6c;
+}
+#home .hamburger {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+#home .arrow {
+  width: 0;
+  height: 0;
+  margin-left: 275px;
+  border-right: 9px solid transparent;
+  border-left: 9px solid transparent;
+  border-bottom: 9px solid #4c75a3;
+  position: absolute;
+  top: -9px;
+}
+#home .fa-chevron-up {
+  margin-left: 110px;
+}
+#home .marked {
+  background-color: #4c75a3;
+  border-radius: 2px;
+}
+#home .marked1 {
+  color: #ffffff;
+}
+#home .rotate {
+  moz-transition: all 0.3s linear;
+  webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+#home .rotate.down {
+  moz-transform: rotate(180deg);
+  webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+#home .instr-vid {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border: solid 1px black;
+}
+#home .instr-text {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
