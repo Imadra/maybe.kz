@@ -1,7 +1,7 @@
 html,
 body {
   overflow-x: hidden;
-  background-color: #f7f7f7;
+  background-color: #dfe3ee;
 }
 * {
   margin: 0;
@@ -10,6 +10,9 @@ body {
 }
 header {
   background-color: #4c75a3;
+}
+header a:hover {
+  text-decoration: none;
 }
 header h1 {
   text-transform: uppercase;
@@ -47,9 +50,9 @@ header h5 {
   display: inline-block;
   height: 50px;
   line-height: 50px;
-  width: 300px;
-  margin-left: -170px;
-  border: solid 1px #8b9dc3;
+  width: 200px;
+  margin-left: -100px;
+  border: solid 1px #cccccc;
 }
 #home nav ul li ul {
   display: none;
@@ -144,7 +147,7 @@ header h5 {
 #home .arrow {
   width: 0;
   height: 0;
-  margin-left: 275px;
+  margin-left: 164px;
   border-right: 9px solid transparent;
   border-left: 9px solid transparent;
   border-bottom: 9px solid #4c75a3;
@@ -152,7 +155,7 @@ header h5 {
   top: -9px;
 }
 #home .fa-chevron-up {
-  margin-left: 110px;
+  margin-left: 70px;
 }
 #home .marked {
   background-color: #4c75a3;
@@ -172,11 +175,33 @@ header h5 {
   transform: rotate(180deg);
 }
 #home .instr-vid {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  border: solid 1px black;
+  background-color: white;
+  height: 400px;
+  padding-top: 20px;
+  border-radius: 5px;
+  border: solid 1px #cccccc;
 }
-#home .instr-text {
-  padding-top: 50px;
-  padding-bottom: 50px;
+#home .instr-text-1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  border-radius: 5px;
+  border: solid 1px #cccccc;
+  margin-bottom: 30px;
+}
+#home .instr-text-2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  background-color: white;
+  border-radius: 5px;
+  border: solid 1px #cccccc;
+}
+#home .instr-text-3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  border-radius: 5px;
+  border: solid 1px #cccccc;
+  margin-bottom: 30px;
 }
