@@ -445,3 +445,15 @@ header h5 {
   border-radius: 5px;
   border: solid 1px #cccccc;
 }
+#home-cities .cities .city1 img{
+  border-radius: 3px;
+  border: solid 1px #cccccc;
+}
+#home-cities .cities .city2 img{
+  border-radius: 3px;
+  border: solid 1px #cccccc;
+}
+#home-cities .cities .city3 img{
+  border-radius: 3px;
+  border: solid 1px #cccccc;
+}
