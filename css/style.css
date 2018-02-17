@@ -115,7 +115,7 @@ header h5 {
 }
 #home .slider {
   border-radius: 5px;
-  margin-top: -65px;
+  margin-top: -40px;
   margin-bottom: -50px;
 }
 #home .instr-vid {
@@ -144,6 +144,211 @@ header h5 {
   color: #3b5998;
 }
 #home .instr-text p {
+  font-family: Verdana;
+  color: #274e72;
+}
+#home .centers {
+  background-color: white;
+  height: 800px;
+  padding-top: 20px;
+  border-radius: 5px;
+  border: solid 1px #cccccc;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#home .centers .center {
+  border: solid 1px #99ccff;
+  border-radius: 5px;
+}
+#home .centers .center img {
+  border-radius: 3px;
+  border: solid 1px #cccccc;
+}
+#home .centers h3 {
+  color: #3b5998;
+  font-size: 20px;
+}
+#home .centers button {
+  border: none;
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  color: #3b5998;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+#home .centers button:hover {
+  background-color: #dfe3ee;
+}
+#home .centers img {
+  margin-top: 5px;
+}
+#home .cities {
+  background-color: white;
+  height: 800px;
+  padding-top: 20px;
+  border-radius: 5px;
+  border: solid 1px #cccccc;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#home .cities .center {
+  border: solid 1px #99ccff;
+  border-radius: 5px;
+}
+#home .cities .center img {
+  border-radius: 3px;
+  border: solid 1px #cccccc;
+}
+#home .cities h3 {
+  color: #3b5998;
+  font-size: 20px;
+}
+#home .cities button {
+  border: none;
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  color: #3b5998;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+#home .cities button:hover {
+  background-color: #dfe3ee;
+}
+#home .cities img {
+  margin-top: 5px;
+}
+#home .boutiques {
+  background-color: white;
+  height: 800px;
+  border-radius: 5px;
+  border: solid 1px #cccccc;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#home .boutiques .boutique {
+  border-bottom: solid 1px #cccccc;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+#home .boutiques .boutique img {
+  margin-bottom: 20px;
+}
+#home .boutiques .boutique h5 {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 20px;
+  color: #274e72;
+}
+#home .boutiques .boutique p {
+  font-family: Verdana;
+  font-size: 16px;
+  color: #274e72;
+}
+#home .boutiques .boutique button {
+  border: none;
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  color: #274e72;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: Verdana;
+  font-weight: normal;
+  float: right;
+}
+#home .boutiques .boutique button:focus {
+  outline: 0;
+}
+#home .boutiques .boutique button:hover {
+  background-color: #cdd4e5;
+}
+#page {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+#page button {
+  border: none;
+  background-color: #dfe3ee;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  color: #3b5998;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+  font-family: Verdana;
+  font-weight: normal;
+}
+#page button:focus {
+  outline: 0;
+}
+#page button:hover {
+  background-color: #cdd4e5;
+}
+#page .page-men {
+  padding-top: 20px;
+  background-color: white;
+  border-radius: 5px;
+  border: solid 1px #cccccc;
+}
+#page .page-men button {
+  border: none;
+  background-color: white;
+  /*#dfe3ee;*/
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  color: #3b5998;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+  font-family: Verdana;
+  font-weight: normal;
+}
+#page .page-men button:focus {
+  outline: 0;
+}
+#page .page-men button:hover {
+  background-color: #cdd4e5;
+}
+#page .page-main {
+  padding-top: 20px;
+  background-color: white;
+  border-radius: 5px;
+  border: solid 1px #cccccc;
+  height: 800px;
+}
+#page .page-main img {
+  border-radius: 5px;
+  border: solid 1px #cccccc;
+}
+#page .page-main h4 {
+  margin-top: -1px;
+  font-family: Verdana;
+  color: #274e72;
+}
+#page .page-main p {
   font-family: Verdana;
   color: #274e72;
 }
